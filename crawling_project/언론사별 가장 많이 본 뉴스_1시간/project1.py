@@ -1,4 +1,3 @@
-from lib2to3.pgen2 import driver
 from selenium import webdriver
 import csv
 
@@ -26,5 +25,3 @@ csvWriter.writerow([time])
 for a in article:
     csvWriter.writerow([a])
 csvWriter.writerow([])
-        
-
